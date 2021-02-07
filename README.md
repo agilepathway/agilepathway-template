@@ -4,3 +4,11 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Template repository with generic Codespaces configuration, YAML linting etc
+
+## Suggestions / bug reports / contributions
+
+The project is [open source](https://opensource.guide/how-to-contribute/) and all contributions are very welcome :slightly_smiling_face: :boom: :thumbsup:
+
+* [How to report a bug or suggest a new feature](CONTRIBUTING.md#how-to-report-a-bug-or-suggest-a-new-feature)
+
+* [How to contribute](CONTRIBUTING.md#how-to-make-a-contribution)
