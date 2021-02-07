@@ -13,3 +13,7 @@ for us to merge).
 
 Dependabot automatically updates our:
 - [GitHub Actions (non-Docker dependencies only, for now)](https://github.blog/2020-06-25-dependabot-now-updates-your-actions-workflows/)
+
+## Ubuntu version
+
+[Ubuntu releases annually in April](https://wiki.ubuntu.com/Releases).  In 2020 the GitHub Actions team [supported the new version by mid June](https://github.com/actions/virtual-environments/issues/228#issuecomment-644065532), so we have [an issue automatically created on for 15th July each year](https://github.com/agilepathway/agilepathway-template/pull/12) to prompt us to update. 
