@@ -1,6 +1,6 @@
 ---
-name: 'Check commit message style'
-on:  # yamllint disable-line rule:truthy
+name: "Check commit message style"
+on: # yamllint disable-line rule:truthy
   pull_request:
     types:
       - opened
@@ -22,5 +22,5 @@ jobs:
       - name: Check
         uses: mristin/opinionated-commit-message@v2.3.1
         with:
-          allow-one-liners: 'true'
-          additional-verbs: 'customise'
+          allow-one-liners: "true"
+          additional-verbs: "customise"
