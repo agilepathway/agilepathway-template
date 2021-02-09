@@ -7,4 +7,3 @@ You can develop entirely in the cloud using Codespaces, an integrated developmen
 Modify the `devcontainer.json` and `Dockerfile` files to [customise the Codespace configuration](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project#creating-a-custom-codespace-configuration).
 
 [GitHub Codespaces documentation](https://docs.github.com/en/github/developing-online-with-codespaces)
-
