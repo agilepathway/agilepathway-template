@@ -44,14 +44,13 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"GitHub.vscode-pull-request-github",
+		"redhat.vscode-yaml"
 		// "ms-python.python",
 		// "ms-python.vscode-pylance",
 		// "getgauge.gauge",
 	],
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
 	// "oryx build" will automatically install your dependencies and attempt to build your project
 	"postCreateCommand": "oryx build -p virtualenv_name=.venv || echo 'Could not auto-build. Skipping.'"
 }
