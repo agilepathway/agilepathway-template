@@ -48,7 +48,8 @@
 	"extensions": [
 		"GitHub.vscode-pull-request-github",
 		"redhat.vscode-yaml",
-		"davidanson.vscode-markdownlint"
+		"davidanson.vscode-markdownlint",
+		"timonwong.shellcheck"
 		// "ms-python.python",
 		// "ms-python.vscode-pylance",
 		// "getgauge.gauge",
