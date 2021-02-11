@@ -1,0 +1,14 @@
+---
+# See ../DEPENDENCIES.md#workaround-for-other-dependencies
+name: Dependabot hack
+on: # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - never-trigger-this-dependabot-hack-workflow
+
+jobs:
+  dependabot_hack:
+    name: Dependabot for non package managed dependencies
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: hadolint/hadolint@v1.22.0
