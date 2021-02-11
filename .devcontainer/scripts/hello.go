@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("HADOLINT_VERSION=v1.22.1")
+    fmt.Println("v1.22.1")
 }
