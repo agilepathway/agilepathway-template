@@ -31,6 +31,10 @@
 		"lldb.executable": "/usr/bin/lldb",
 		"files.watcherExclude": {
 			"**/target/**": true
+		},
+		"files.associations": {
+			"*.spec": "gauge",
+			"*.cpt": "gauge"
 		}
 	},
 	"remoteUser": "codespace",
@@ -50,7 +54,7 @@
 		"redhat.vscode-yaml",
 		"davidanson.vscode-markdownlint",
 		"timonwong.shellcheck",
-		"exiasr.hadolint"
+		"exiasr.hadolint",
 		// "ms-python.python",
 		// "ms-python.vscode-pylance",
 		// "getgauge.gauge",
