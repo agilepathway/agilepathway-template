@@ -49,7 +49,8 @@
 		"GitHub.vscode-pull-request-github",
 		"redhat.vscode-yaml",
 		"davidanson.vscode-markdownlint",
-		"timonwong.shellcheck"
+		"timonwong.shellcheck",
+		"exiasr.hadolint"
 		// "ms-python.python",
 		// "ms-python.vscode-pylance",
 		// "getgauge.gauge",
