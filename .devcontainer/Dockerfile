@@ -4,7 +4,7 @@ COPY scripts/* /tmp/scripts/
 
 USER root
 
-RUN HADOLINT_VERSION=$(go run /tmp/scripts/hello.go) \
+RUN HADOLINT_VERSION=$(go run /tmp/scripts/semver.go) \
     && /tmp/scripts/install-hadolint.sh "$HADOLINT_VERSION" \
     # && /tmp/scripts/install-gauge.sh \
     && rm -rf /tmp/scripts
