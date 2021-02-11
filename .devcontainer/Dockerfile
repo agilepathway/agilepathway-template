@@ -4,7 +4,8 @@ COPY scripts/* /tmp/scripts/
 
 USER root
 
-RUN /tmp/scripts/install-hadolint.sh \
+RUN eval "$(go run /tmp/scripts/hello.go)" \
+    && /tmp/scripts/install-hadolint.sh "$HADOLINT_VERSION" \
     # && /tmp/scripts/install-gauge.sh \
     && rm -rf /tmp/scripts
 
