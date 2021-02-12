@@ -14,6 +14,10 @@
 		"go.gopath": "/go",
 		"go.goroot": "/usr/local/go",
 		"go.toolsGopath": "/go/bin",
+		"go.lintTool": "golangci-lint",
+		"go.lintFlags": [
+			"--fast"
+		],
 		"python.pythonPath": "/opt/python/latest/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
@@ -35,7 +39,9 @@
 		"files.associations": {
 			"*.spec": "gauge",
 			"*.cpt": "gauge"
-		}
+		},
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 500,
 	},
 	"remoteUser": "codespace",
 	"overrideCommand": false,
@@ -55,6 +61,7 @@
 		"davidanson.vscode-markdownlint",
 		"timonwong.shellcheck",
 		"exiasr.hadolint",
+		"golang.Go",
 		// "ms-python.python",
 		// "ms-python.vscode-pylance",
 		// "getgauge.gauge",
