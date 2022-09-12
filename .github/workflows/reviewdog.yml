@@ -89,7 +89,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2.4.0
-      - uses: reviewdog/action-golangci-lint@v2.0.3
+      - uses: reviewdog/action-golangci-lint@v2.2.1
         with:
           github_token: ${{ secrets.github_token }}
           golangci_lint_flags: "-c .golangci.yml"
